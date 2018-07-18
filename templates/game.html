@@ -2,16 +2,18 @@
 <html>
 <head>
 	<title>Let's play a game!</title>
+	<link rel="stylesheet" type="text/css" href="/static/madlibs.css"></li>
 </head>
 <body>
-	This is going to be so madlit.🔥<br><br>
+	<div id="game">
+	<h2>This is going to be so madlit.</h2>
 	<form action="/madlib">
 		Name a person:
-		<input type="text" name="person"><br>
+		<input type="text" name="person"><br><br>
 		Pick a color:
-		<input type="text" name="color"><br>
+		<input type="text" name="color"><br><br>
 		Choose a noun: 
-		<input type="text" name="noun"><br>
+		<input type="text" name="noun"><br><br>
 		Select an adjective:
 		<select name="adjective">
 			<option value="gorgeous">Gorgeous</option>
@@ -19,7 +21,8 @@
 			<option value="horrendous">Horrendous</option>
 			<option value="shiny">Shiny</option>
 		</select>
-		<br><input type="submit">
+		<br><br><input type="submit">
 	</form>
+	</div>
 </body>
 </html>

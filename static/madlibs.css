@@ -5,3 +5,9 @@
 	width: 50%;
 	padding: 30px;
 }
+
+#game {
+	background-image: url("/static/flames.jpg");
+	height: 500px;
+	font-weight: bold;
+}
