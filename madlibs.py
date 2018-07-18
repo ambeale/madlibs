@@ -58,7 +58,9 @@ def show_madlib_form():
 def show_madlib():
 	"""Show madlib"""
 
-	return render_template("madlib.html",
+	chosen_madlib = choice(["madlib.html", "madlib2.html", "madlib3.html"])
+
+	return render_template(chosen_madlib,
 		noun=request.args.get("noun"),
 		adjective=request.args.get("adjective"),
 		color=request.args.get("color"),
